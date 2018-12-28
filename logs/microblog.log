@@ -64,3 +64,5 @@ werkzeug.routing.BuildError: Could not build url for endpoint 'reset_password_re
 2018-12-29 01:29:30,757 INFO: Microblog startup [in C:\HomeWork\app\__init__.py:44]
 2018-12-29 01:32:42,996 INFO: Microblog startup [in C:\HomeWork\app\__init__.py:47]
 2018-12-29 01:34:39,036 INFO: Microblog startup [in C:\HomeWork\app\__init__.py:47]
+2018-12-29 01:38:18,006 INFO: Microblog startup [in C:\HomeWork\app\__init__.py:33]
+2018-12-29 01:39:14,848 INFO: Microblog startup [in C:\HomeWork\app\__init__.py:33]
