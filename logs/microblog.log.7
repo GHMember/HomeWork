@@ -1,0 +1,148 @@
+2018-12-24 23:43:32,308 ERROR: Exception on / [GET] [in c:\homework\venv\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\homework\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\HomeWork\app\routes.py", line 19, in index
+    return render_template('index.html', title='Главная страница', form=form, posts=posts)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\homework\venv\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\HomeWork\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\HomeWork\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\HomeWork\app\templates\index.html", line 7, in block "content"
+    {{ form.hidden_teg() }}
+jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'hidden_teg'
+2018-12-24 23:43:40,506 ERROR: Exception on /index [GET] [in c:\homework\venv\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\homework\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\HomeWork\app\routes.py", line 19, in index
+    return render_template('index.html', title='Главная страница', form=form, posts=posts)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\homework\venv\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\HomeWork\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\HomeWork\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\HomeWork\app\templates\index.html", line 7, in block "content"
+    {{ form.hidden_teg() }}
+jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'hidden_teg'
+2018-12-24 23:43:47,806 ERROR: Exception on /index [GET] [in c:\homework\venv\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\homework\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\HomeWork\app\routes.py", line 19, in index
+    return render_template('index.html', title='Главная страница', form=form, posts=posts)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\homework\venv\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\HomeWork\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\HomeWork\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\HomeWork\app\templates\index.html", line 7, in block "content"
+    {{ form.hidden_teg() }}
+jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'hidden_teg'
+2018-12-24 23:43:55,177 ERROR: Exception on /index [GET] [in c:\homework\venv\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\homework\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\homework\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\HomeWork\app\routes.py", line 19, in index
+    return render_template('index.html', title='Главная страница', form=form, posts=posts)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\homework\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\homework\venv\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\homework\venv\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\homework\venv\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\HomeWork\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\HomeWork\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\HomeWork\app\templates\index.html", line 7, in block "content"
+    {{ form.hidden_teg() }}
+jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'hidden_teg'
